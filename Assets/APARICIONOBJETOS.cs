@@ -35,6 +35,10 @@ public class APARICIONOBJETOS : MonoBehaviour
             CleanObjetos();
             visualizarObjeto(Numeros);
         }
+        if (Numeros < 0)
+        {
+            Numeros++;
+        }
     }
     void CleanObjetos()
     {
